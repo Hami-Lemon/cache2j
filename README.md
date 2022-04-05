@@ -1,7 +1,7 @@
 # Cache2J
 
 学习了一下[cache2go](https://github.com/muesli/cache2go)的源码，试着用Java实现了一下。
-项目很简单，更多的是学习过程中带来的收获。
+项目很简单，功能也只实现了主要功能。
 
 基于HashMap+读写锁（ReentrantReadWriteLock）实现。LRU的淘汰策略，支持加载回调和淘汰回调。
 
